@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="grid-card">
+   <sol-grid-card id="sol-grid-card"   card="{{card}}"  bind:open="openCard"></sol-grid-card>
+</view>
+<view>
+   
+    <view class="replay-button" bindtap="replay">
+      点我点我点我
+    </view>
+</view>
+</view>
