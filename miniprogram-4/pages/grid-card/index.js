@@ -82,14 +82,15 @@ Page({
     },
 
   replay() {
-    
-    // 触发组件开始方法
+
     this.selectComponent('#sol-grid-card').start(() => {
       // 动画结束后可以点击
       this.setData({
         ready: true
       })
     })
+    
+  
    this.setData({
      gameover:false
    })
@@ -99,15 +100,6 @@ Page({
        [tmp]: 0
      })
    }
-   
-
-    this.selectComponent('#sol-grid-card').start(() => {
-      // 动画结束后可以点击
-      this.setData({
-        ready: true
-      })
-    })
-    
   
     
   },

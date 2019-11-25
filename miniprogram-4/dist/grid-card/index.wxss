@@ -19,8 +19,8 @@
   transition: all 1s cubic-bezier(.68,-.22,.265,1.22)
 }
 .card .project image {
-  width: 185rpx;
-  height: 245rpx
+  width: 180rpx;
+  height: 240rpx
 }
 .card .project .back,
 .card .project .front {
